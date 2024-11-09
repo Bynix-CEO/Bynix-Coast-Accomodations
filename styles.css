@@ -1,5 +1,5 @@
 .hero-section {
-  background-image: url("/images/Bed.jpeg");
+  background-image: url("./images/Bed.jpeg");
   background-size: cover;
   background-position: center;
   color: white;
@@ -14,9 +14,22 @@
 .hero-text {
   font-size: 3rem;
   font-weight: bold;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  background-color: rgba(0, 0, 0, 0.35); /* Semi-transparent overlay */
   padding: 20px;
   border-radius: 8px;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .hero-text {
+    font-size: 2rem; /* Smaller font size for screens 768px and below */
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text {
+    font-size: 1.5rem; /* Even smaller font size for very small screens */
+  }
 }
 
 .amenities {
