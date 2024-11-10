@@ -57,3 +57,32 @@
   color: #007bff; /* Icon color to stand out */
   margin-right: 10px;
 }
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Center the iframe within its container */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+}
+
+/* Responsive iframe styling */
+.form-container iframe {
+  width: 100%;
+  max-width: 640px; /* Adjust this value if needed */
+  height: 90vh; /* Set to adjust based on screen height */
+  border: none;
+}
