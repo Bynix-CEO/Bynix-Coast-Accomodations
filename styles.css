@@ -18,6 +18,13 @@
   padding: 20px;
   border-radius: 8px;
 }
+/* Mombasa Accomodation Styling */
+.navbar-brand {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem; /* Adjust size as needed */
+  color: black;
+  font-weight: 900;
+}
 
 /* Media Query for smaller screens */
 @media (max-width: 768px) {
