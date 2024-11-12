@@ -86,3 +86,114 @@
   height: 90vh; /* Set to adjust based on screen height */
   border: none;
 }
+
+/* Hotel Card */
+.hotel-card {
+  height: 200px; /* Fixed height for each card */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+/* Hotel Image Carousel */
+.hotel-card img {
+  height: 200px; /* Set a fixed height for images */
+  width: 100%;
+  object-fit: cover; /* Ensures images cover the area without stretching */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* Content within the Hotel Card */
+.hotel-card-content {
+  padding: 15px;
+  flex-grow: 1;
+}
+
+.amenities {
+  font-size: 0.9rem;
+}
+
+/* Book Now Button */
+.book-now-btn {
+  margin-top: auto;
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Footer */
+.footer {
+  background: linear-gradient(
+    135deg,
+    #00b4d8,
+    #03045e
+  ); /* Tropical sea and navy colors */
+  padding: 30px 0;
+  color: #fff;
+}
+
+.footer h4 {
+  color: #f0e68c; /* Soft sand color for headings */
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer-col {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li a {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+  color: #f9d71c; /* Golden-yellow for a warm, inviting hover effect */
+}
+
+.footer-col p {
+  font-size: 14px;
+  color: #f0f0f0;
+}
+
+.social-links a {
+  color: #f9d71c;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.social-links a:hover {
+  color: #ffdd00;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #d0d0d0;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
